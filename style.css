@@ -37,11 +37,19 @@
   border-radius: 50%;
 }
 
+/* ex 4*/
+
 .ex-4-square {
   width: 100px;
   height: 100px;
   background: red;
+  transition: background-color 2s;
 }
+
+.ex-4-square:hover {
+  background-color: transparent;
+}
+
 .ex-5-square {
   margin: 20px;
   width: 60px;
