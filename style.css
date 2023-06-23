@@ -68,6 +68,12 @@
   transform: scale(0.5);
 }
 
+/* ex 6 */
+
+.ex-6-img:hover {
+  filter: grayscale(100%);
+}
+
 .ex-6-img,
 .ex-7-img,
 .ex-8-img {
