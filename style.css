@@ -123,9 +123,31 @@
     rotate: -360deg;
   }
 }
+
+/* ex 11 */
+
 .ex-11-icon {
   font-size: 60px;
 }
+.ex-11-icon:hover {
+  animation: rotate-icon-11;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+}
+
+@keyframes rotate-icon-11 {
+  0% {
+    rotate: 0turn;
+  }
+
+  90% {
+    rotate: 0.75turn;
+  }
+  100% {
+    rotate: 0turn;
+  }
+}
+
 .ex-12-button,
 .ex-13-button {
   position: relative;
